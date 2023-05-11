@@ -1,4 +1,14 @@
 DROP DATABASE IF EXISTS universities;
+
+/*
+IF EXISTS(SELECT * FROM master.sys.databases 
+          WHERE name='Universities')
+BEGIN
+    PRINT 'Database Exists'
+    DROP DATABASE Universities
+END
+ */
+
 CREATE DATABASE universities;
 
 DROP TABLE IF EXISTS universities.dbo.country;
