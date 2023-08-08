@@ -1,3 +1,4 @@
+USE movies;
 DROP TABLE IF EXISTS movies.dbo.keyword;
 
 CREATE TABLE movies.dbo.keyword (

@@ -8,9 +8,11 @@ ENV MSSQL_SA_PASSWORD=C0ntrol1* ACCEPT_EULA=Y MSSQL_PID=Developer
 # Puerto SQL
 EXPOSE 1433
 
-# ------------------------------ MYSQL -------------------------------------------
-FROM mysql:8.0.33 AS MySQL8
+# ------------------------------ MYSQL 8.0.33 -------------------------------------------
+FROM mysql:8 AS MySQL8
+
 ENV MYSQL_ROOT_PASSWORD=C0ntrol1*
+
 EXPOSE 3306
 
 # ------------------------------ POSTGRES ----------------------------------------

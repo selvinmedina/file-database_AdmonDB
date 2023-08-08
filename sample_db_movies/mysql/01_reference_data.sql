@@ -1,6 +1,7 @@
+use sys;
 DROP DATABASE IF EXISTS movies;
 CREATE DATABASE movies;
-
+use movies;
 
 DROP TABLE IF EXISTS movies.country;
 

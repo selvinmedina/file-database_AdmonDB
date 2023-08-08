@@ -1,6 +1,7 @@
+USE MASTER;
 DROP DATABASE IF EXISTS movies;
 CREATE DATABASE movies;
-
+USE movies;
 DROP TABLE IF EXISTS movies.dbo.country;
 
 CREATE TABLE movies.dbo.country (
