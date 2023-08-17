@@ -1,3 +1,4 @@
+USE movies;
 DROP TABLE IF EXISTS movies.dbo.production_country;
 
 CREATE TABLE movies.dbo.production_country (

@@ -1,3 +1,4 @@
+USE movies;
 INSERT INTO movies.dbo.person (person_id, person_name) VALUES
 (1061126,'Ken Gibb'),
 (1061203,'Blu Murray'),

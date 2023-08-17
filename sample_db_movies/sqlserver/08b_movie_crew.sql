@@ -1,3 +1,4 @@
+USE movies;
 INSERT INTO movies.dbo.movie_crew (movie_id, person_id, department_id, job) VALUES
 (20504,1399872,10,'Visual Effects Producer'),
 (20504,1399929,5,'Digital Intermediate'),

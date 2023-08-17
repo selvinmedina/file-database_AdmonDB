@@ -1,3 +1,4 @@
+USE movies;
 DROP TABLE IF EXISTS movies.dbo.movie_crew;
 
 CREATE TABLE movies.dbo.movie_crew (

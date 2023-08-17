@@ -1,3 +1,4 @@
+USE movies;
 INSERT INTO movies.dbo.movie_cast (movie_id, person_id, character_name, gender_id, cast_order) VALUES
 (11400,15853,'Opechancanough',2,5),
 (11400,11207,'Wingfield',2,6),
