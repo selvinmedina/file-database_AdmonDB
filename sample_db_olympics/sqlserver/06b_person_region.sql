@@ -9977,7 +9977,7 @@ INSERT INTO olympics.dbo.person_region (person_id, region_id) VALUES
 (62466,14),
 (62467,14),
 (62468,101),
-(62469,146);
+(62469,146),
 (62470,146),
 (62471,146),
 (62473,146),

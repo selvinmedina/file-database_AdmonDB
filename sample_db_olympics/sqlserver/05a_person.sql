@@ -13498,7 +13498,7 @@ INSERT INTO olympics.dbo.person (id, full_name, gender, height, weight) VALUES
 (14224,'Jol Bouzou','M',180,71),
 (14225,'Cristian Ludovico Ernesto Bove','M',0,0),
 (14226,'Floris Jan Bovelander','M',185,90);
-
+GO
 INSERT INTO olympics.dbo.person (id, full_name, gender, height, weight) VALUES
 (14227,'George Richard Lycott Bovell','M',196,74),
 (14228,'Nicholas \"Nick\"\" Edward Anthony Bovell\"','M',183,76),
@@ -25198,7 +25198,7 @@ INSERT INTO olympics.dbo.person (id, full_name, gender, height, weight) VALUES
 (26554,'Flix de Poms Soler','M',184,0),
 (26557,'Bernard Alexandre Georges Edmond de Pourtals','M',0,0),
 (26558,'Claire Elizabeth de Pourtales (-Hughes)','F',172,67);
-
+GO
 INSERT INTO olympics.dbo.person (id, full_name, gender, height, weight) VALUES
 (26559,'Hlne de Pourtals (Barbey-)','F',0,0),
 (26560,'Hermann Alexandre de Pourtals','M',0,0),
@@ -38698,7 +38698,7 @@ INSERT INTO olympics.dbo.person (id, full_name, gender, height, weight) VALUES
 (40856,'Serge David Gnabry','M',173,74),
 (40857,'Hans-Jrgen \"Hansi\"\" Gnad\"','M',208,110),
 (40858,'Floriane Gnafoua','F',158,60);
-
+GO
 INSERT INTO olympics.dbo.person (id, full_name, gender, height, weight) VALUES
 (40859,'Elio Gnagnarelli','M',172,79),
 (40860,'Marie Gnahor','F',0,0),
@@ -46998,7 +46998,7 @@ INSERT INTO olympics.dbo.person (id, full_name, gender, height, weight) VALUES
 (49517,'Joakim Bengt Bror Holmquist','M',189,83),
 (49518,'Birger Ivar Holmqvist','M',0,0),
 (49519,'Harry Eggert Holmqvist','M',0,0);
-
+GO
 INSERT INTO olympics.dbo.person (id, full_name, gender, height, weight) VALUES
 (49520,'Knut Anders Holmqvist','M',0,0),
 (49521,'Leif Erik Holmqvist','M',176,76),
@@ -54698,7 +54698,7 @@ INSERT INTO olympics.dbo.person (id, full_name, gender, height, weight) VALUES
 (57539,'Saidu Kargbo','M',150,48),
 (57540,'Martin Kargl','M',0,0),
 (57541,'Minna Marika Karhu','F',171,61);
-
+GO
 INSERT INTO olympics.dbo.person (id, full_name, gender, height, weight) VALUES
 (57542,'Urho Johannes Karhumki','M',0,0),
 (57543,'Esko Ensio Karhunen','M',183,0),
@@ -59198,7 +59198,7 @@ INSERT INTO olympics.dbo.person (id, full_name, gender, height, weight) VALUES
 (62235,'Johannes Cornelis Kolling','M',0,0),
 (62236,'Jaroslav Kollinger','M',0,0),
 (62237,'Walter Kollmann','M',0,0);
-
+GO
 INSERT INTO olympics.dbo.person (id, full_name, gender, height, weight) VALUES
 (62238,'Stefan Kllner','M',187,78),
 (62239,'Stein Kollshaugen','M',178,70),
@@ -61898,6 +61898,7 @@ INSERT INTO olympics.dbo.person (id, full_name, gender, height, weight) VALUES
 (65018,'Stephan Kunz','M',181,78),
 (65019,'Urs Kunz','M',173,60),
 (65020,'Viktor Kunz','M',178,68);
+GO
 
 INSERT INTO olympics.dbo.person (id, full_name, gender, height, weight) VALUES
 (65022,'Lenchu Kunzang','F',165,59),
@@ -62798,6 +62799,8 @@ INSERT INTO olympics.dbo.person (id, full_name, gender, height, weight) VALUES
 (65964,'Lai Chu-En','M',168,56),
 (65965,'Lai Chu-Long','M',167,58),
 (65966,'Lai Chun Ho','M',168,60);
+
+GO
 
 INSERT INTO olympics.dbo.person (id, full_name, gender, height, weight) VALUES
 (65967,'Lai Fang-Mei','F',168,51),
@@ -63778,7 +63781,9 @@ INSERT INTO olympics.dbo.person (id, full_name, gender, height, weight) VALUES
 (66982,'Gerarda Hendrica Maria \"Gerda\"\" Lassooij (-Nolting)\"','F',0,0),
 (66983,'Leila Franoise Lassouani','F',155,63),
 (66984,'Annie Last','F',167,60),
-(66985,'Violeta Lastakauskait','F',184,72),
+(66985,'Violeta Lastakauskait','F',184,72);
+GO
+INSERT INTO olympics.dbo.person (id, full_name, gender, height, weight) VALUES
 (66986,'Carlos Lastarria Escobedo','M',178,104),
 (66987,'Jeremy Todd Laster','M',195,91),
 (66988,'Aartje Elisabeth \"Adrie\"\" Lasterie\"','F',171,65),
@@ -64777,7 +64782,10 @@ INSERT INTO olympics.dbo.person (id, full_name, gender, height, weight) VALUES
 (68044,'Lee Kye-Rim','F',158,50),
 (68045,'Lee Kyu-Hyun','M',180,70),
 (68046,'Lee Kyung-Hong','M',0,0),
-(68047,'Lee Kyung-Ja','F',165,56),
+(68047,'Lee Kyung-Ja','F',165,56);
+
+GO
+INSERT INTO olympics.dbo.person (id, full_name, gender, height, weight) VALUES
 (68048,'Lee Lai Shan','F',170,59),
 (68049,'Laurel Lee','M',173,70),
 (68050,'Lyoon-Jung \"Lily\"\" Lee\"','F',162,59),
@@ -64885,6 +64893,5 @@ INSERT INTO olympics.dbo.person (id, full_name, gender, height, weight) VALUES
 (68154,'Lee Sin-Mi','F',173,63),
 (68155,'Lee So-Hee','F',171,67),
 (68156,'Lee So-Yeon','F',175,78),
-(68157,'Kui Nang \"Solomon\"\" Lee\"','M',170,71),
-
+(68157,'Kui Nang \"Solomon\"\" Lee\"','M',170,71);
 

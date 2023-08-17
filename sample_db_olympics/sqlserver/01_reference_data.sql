@@ -1,6 +1,8 @@
 DROP DATABASE IF EXISTS olympics;
 CREATE DATABASE olympics;
-
+GO
+USE olympics
+GO
 DROP TABLE IF EXISTS olympics.dbo.medal;
 
 CREATE TABLE olympics.dbo.medal (
